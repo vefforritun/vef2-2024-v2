@@ -1,0 +1,65 @@
+  {
+    "date": "2024-02-07T15:20:53.955Z",
+    "games": [
+      {
+        "home": {
+          "name": "Óhemjurnar",
+          "score": 0
+        },
+        "away": {
+          "name": "Sigurliðið",
+          "score": 0
+        }
+      },
+      {
+        "home": {
+          "name": "Skotföstu kempurnar",
+          "score": 0
+        },
+        "away": {
+          "name": "Vinningshópurinn",
+          "score": 5
+        }
+      },
+      {
+        "home": {
+          "name": "Framherjarnir",
+          "score": 0
+        },
+        "away": {
+          "name": "Risaeðlurnar",
+          "score": 3
+        }
+      },
+      {
+        "home": {
+          "name": "Ósigrandi skotfólkið",
+          "score": 0
+        },
+        "away": {
+          "name": "Boltaliðið",
+          "score": 3
+        }
+      },
+      {
+        "home": {
+          "name": "Fljótu fæturnir",
+          "score": 1
+        },
+        "away": {
+          "name": "Hraðaliðið",
+          "score": 2
+        }
+      },
+      {
+        "home": {
+          "name": "Markaskorarnir",
+          "score": 2
+        },
+        "away": {
+          "name": "Dripplararnir",
+          "score": 1
+        }
+      }
+    ]
+  }
