@@ -26,5 +26,5 @@ app.use(handler404);
 app.use(handlerError);
 
 app.listen(port, () => {
-  console.info(`Server running at http://localhost:${port}/`);
+  console.info(`🚀 Server running at http://localhost:${port}/`);
 });
