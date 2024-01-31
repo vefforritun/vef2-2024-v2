@@ -1,5 +1,8 @@
 # Vefforritun 2, 2024, verkefni 2: Express, postgres og hýsing
 
+- [Kynning á verkefni](https://youtu.be/OlYfb4N-IZQ)
+- [Byrjun á verkefni í fyrirlestri 4](https://youtu.be/45wAA23x5FA)
+
 ## Markmið
 
 - Setja upp express vef með: routes, EJS templateum, formum með staðfestingu og notendaumsjón
