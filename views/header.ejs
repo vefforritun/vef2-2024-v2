@@ -12,6 +12,12 @@
 
     <h1><%= locals.title ?? '' %></h1>
 
+    <% if (locals.loggedIn) { %>
+      <p>Innsrkáður notandi: <%= locals.user.name %> (<%= locals.user.username %>)
+    <% } else { %>
+      <p>Þú ert ekki innskráður notandi.</p>
+    <% } %>
+
     <ul>
       <li><a href="/">Forsíða</a></li>
       <li><a href="/leikir">Leikir</a></li>
