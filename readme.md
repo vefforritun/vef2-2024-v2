@@ -140,7 +140,7 @@ Verkefni sett fyrir í fyrirlestri miðvikudaginn 31. janúar 2023.
 
 ## Skil
 
-Skila skal í Canvas í seinasta lagi fyrir lok dags fimmtudaginn 15. febrúar 2024.
+Skila skal í Canvas í seinasta lagi fyrir lok dags fimmtudaginn ~15.~ 22. febrúar 2024.
 
 Skil skulu innihalda:
 
@@ -164,8 +164,9 @@ Sett verða fyrir ([sjá nánar í kynningu á áfanga](https://github.com/veffo
 
 ---
 
-> Útgáfa 0.1
+> Útgáfa 0.2
 
 | Útgáfa | Breyting      |
 | ------ | ------------- |
 | 0.1    | Fyrsta útgáfa |
+| 0.2    | Lengd skil    |
