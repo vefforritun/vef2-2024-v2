@@ -1,0 +1,25 @@
+<%- include('header') -%>
+
+<h1>Seinustu leikir</h1>
+
+<form method="post" action="/skra">
+  <div>
+    <label for="home_name">Heima lið</label>
+    <input type="text" id="home_name" name="home_name">
+  </div>
+  <div>
+    <label for="home_score">Heima skor</label>
+    <input type="text" id="home_score" name="home_score">
+  </div>
+  <div>
+    <label for="away_name">Úti lið</label>
+    <input type="text" id="away_name" name="away_name">
+  </div>
+  <div>
+    <label for="away_score">Úti lið skor</label>
+    <input type="text" id="away_score" name="away_score">
+  </div>
+  <button>Skrá</button>
+</form>
+
+<%- include('footer') -%>

@@ -1,5 +1,6 @@
 import express from 'express';
 import passport from 'passport';
+import { insertGame } from '../lib/db.js';
 
 export const adminRouter = express.Router();
 
@@ -31,8 +32,26 @@ function ensureLoggedIn(req, res, next) {
   return res.redirect('/login');
 }
 
+function skraRoute(req, res, next) {
+  return res.render('skra', {
+    title: 'Skrá leik',
+  });
+}
+
+function skraRouteInsert(req, res, next) {
+  // TODO mjög hrátt allt saman, vantar validation!
+  const { home_name, home_score, away_name, away_score } = req.body;
+
+  const result = insertGame(home_name, home_score, away_name, away_score);
+
+  res.redirect('/leikir');
+}
+
 adminRouter.get('/login', indexRoute);
 adminRouter.get('/admin', ensureLoggedIn, adminRoute);
+adminRouter.get('/skra', skraRoute);
+adminRouter.post('/skra', skraRouteInsert);
+
 adminRouter.post(
   '/login',
 

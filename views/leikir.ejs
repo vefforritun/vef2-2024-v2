@@ -1,5 +1,22 @@
 <%- include('header') -%>
 
-leikir!
+<h1>Seinustu leikir</h1>
+
+<table>
+  <th>
+    <td>Heima lið</td>
+    <td>Heima lið skor</td>
+    <td>Útilið</td>
+    <td>Útilið skor</td>
+  </th>
+<% for (const game of locals.games) { %>
+  <tr>
+    <td><%= game.home.name %></td>
+    <td><%= game.home.score %></td>
+    <td><%= game.away.name %></td>
+    <td><%= game.away.score %></td>
+  </tr>
+<% } %>
+</table>
 
 <%- include('footer') -%>
