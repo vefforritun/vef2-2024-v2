@@ -60,8 +60,6 @@ Ekki þarf að setja upp nýskráningu en útbúa skal a.m.k. einn notanda með 
 
 Innskráningu skal birta ef farið er á `/admin` og innskráning er ekki til staðar. Ef reynt er að innskrá og villa kemur upp skal birta villuskilaboð um það.
 
-Inni á admin síðu skal birta viðburði og möguleiki á að skoða þá, breyta, og síðan bæta við nýjum viðburðum.
-
 ### Form og gagnaskráning
 
 Birta skal töflu með öllum leikjum eftir innskráningu sem birtir öll gögn leikja, raðað eftir dagsetningu, nýjast fyrst.
@@ -164,9 +162,10 @@ Sett verða fyrir ([sjá nánar í kynningu á áfanga](https://github.com/veffo
 
 ---
 
-> Útgáfa 0.2
+> Útgáfa 0.3
 
 | Útgáfa | Breyting      |
 | ------ | ------------- |
 | 0.1    | Fyrsta útgáfa |
 | 0.2    | Lengd skil    |
+| 0.3    | Fjarlægja texta um að breyta sem ekki átti að vera |
